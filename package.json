@@ -36,8 +36,9 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://mighty-mountain-33158.herokuapp.com/",
+  
   "devDependencies": {
     "webpack-dev-server": "^3.10.3"
-  }
+  },
+  "proxy": "https://mighty-mountain-33158.herokuapp.com/"
 }
