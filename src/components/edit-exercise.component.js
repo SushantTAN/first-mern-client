@@ -23,7 +23,7 @@ export default class EditExercise extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://mighty-mountain-33158.herokuapp.com/exercises/'+this.props.match.params.id)
+    axios.get('https://mighty-mountain-33158.herokuapp.com/exercises/' + this.props.match.params.id)
       .then(response => {
         this.setState({
           username: response.data.username,
